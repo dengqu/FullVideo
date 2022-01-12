@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b207c92b-f65c-4e60-9575-3576c6d48d5a" name="Default Changelist" comment="" />
+    <list default="true" id="b207c92b-f65c-4e60-9575-3576c6d48d5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/CameraGLSurfaceView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/CameraSurfaceRenderer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/CameraUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/FullFrameRect.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/GlUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/Texture2dProgram.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +30,14 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin Object" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,6 +53,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="android-custom-view/Users/dengqu/Downloads/workplace/github/FullVideo/app/src/main/java/com/example/fullvideo/BaseGLSurfaceView.kt_BaseGLSurfaceView_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-view/Users/dengqu/Downloads/workplace/github/FullVideo/app/src/main/java/com/example/fullvideo/BaseGLSurfaceView.kt_SELECTED" value="BaseGLSurfaceView" />
+    <property name="android-custom-view/Users/dengqu/Downloads/workplace/github/FullVideo/app/src/main/java/com/example/fullvideo/CameraGLSurfaceView.kt_CameraGLSurfaceView_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-view/Users/dengqu/Downloads/workplace/github/FullVideo/app/src/main/java/com/example/fullvideo/CameraGLSurfaceView.kt_SELECTED" value="CameraGLSurfaceView" />
+    <property name="android-custom-view/Users/dengqu/Library/Android/sdk/sources/android-29/android/opengl/GLSurfaceView.java_GLSurfaceView_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-view/Users/dengqu/Library/Android/sdk/sources/android-29/android/opengl/GLSurfaceView.java_SELECTED" value="GLSurfaceView" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
@@ -108,7 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641958761078</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="项目建立">
+      <created>1641959329564</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641959329564</updated>
+    </task>
+    <task id="LOCAL-00003" summary="项目建立">
+      <created>1641959453460</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641959453460</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
