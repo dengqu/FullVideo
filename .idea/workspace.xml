@@ -5,20 +5,25 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="mSTMatrix" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b207c92b-f65c-4e60-9575-3576c6d48d5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/CameraGLSurfaceView.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/CameraSurfaceRenderer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/CameraUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/FullFrameRect.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/GlUtil.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/Texture2dProgram.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/Drawable2d.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/CameraGLSurfaceView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/CameraGLSurfaceView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/CameraSurfaceRenderer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/CameraSurfaceRenderer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/FullFrameRect.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/FullFrameRect.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/GlUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/GlUtil.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/Texture2dProgram.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/Texture2dProgram.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +35,34 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FullVideo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FullVideo" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FullVideo" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,8 +83,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="samsung-sm_g9600-444e49575a563398" />
+    <property name="DEBUGGABLE_PROCESS" value="com.example.fullvideo" />
+    <property name="DEBUGGER_ID" value="Auto" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="android-custom-view/Users/dengqu/Downloads/workplace/github/FullVideo/app/src/main/java/com/example/fullvideo/BaseGLSurfaceView.kt_BaseGLSurfaceView_DIMENSIONS" value="1080&#10;1920" />
     <property name="android-custom-view/Users/dengqu/Downloads/workplace/github/FullVideo/app/src/main/java/com/example/fullvideo/BaseGLSurfaceView.kt_SELECTED" value="BaseGLSurfaceView" />
@@ -60,6 +97,11 @@
     <property name="android-custom-view/Users/dengqu/Library/Android/sdk/sources/android-29/android/opengl/GLSurfaceView.java_GLSurfaceView_DIMENSIONS" value="1080&#10;1920" />
     <property name="android-custom-view/Users/dengqu/Library/Android/sdk/sources/android-29/android/opengl/GLSurfaceView.java_SELECTED" value="GLSurfaceView" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.fullvideo" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
@@ -151,11 +193,30 @@
       <option name="project" value="LOCAL" />
       <updated>1641959453460</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="完成部分代码">
+      <created>1641981158355</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641981158355</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目建立" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目建立" />
+    <MESSAGE value="完成部分代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成部分代码" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/fullvideo/MainActivity.kt</url>
+          <line>51</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

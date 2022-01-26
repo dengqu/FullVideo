@@ -8,25 +8,32 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Display
 import android.view.Surface
-import android.view.View
 import android.view.WindowManager
-import android.widget.TextView
 import android.widget.Toast
 import com.permissionx.guolindev.PermissionX
-import com.permissionx.guolindev.callback.RequestCallback
 import java.lang.RuntimeException
 
 class MainActivity : AppCompatActivity() {
     private val TAG = ""
     private var mCamera: Camera? = null
+    private var mCameraGLSurfaceView: CameraGLSurfaceView? = null
+    private var mCameraPreviewWidth = 0
+    private var mCameraPreviewHeight: Int = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        mCameraGLSurfaceView = findViewById(R.id.gLSurfaceView)
     }
 
     override fun onResume() {
         super.onResume()
         requestPermissions()
+
+        mCameraGLSurfaceView?.onResume()
+        mCameraGLSurfaceView?.queueEvent {
+            mCameraGLSurfaceView?.setCameraPreviewSize(mCameraPreviewWidth, mCameraPreviewHeight)
+        }
     }
 
     override fun onPause() {
@@ -42,7 +49,7 @@ class MainActivity : AppCompatActivity() {
             ).request { allGranted, grantedList, deniedList ->
                 if (allGranted) {
                     if (mCamera == null) {
-                        openCamera(720, 1280)
+                        openCamera(1280, 720)
                     }
                     Toast.makeText(this, "All permissions are granted", Toast.LENGTH_SHORT).show()
                 } else {
@@ -82,6 +89,7 @@ class MainActivity : AppCompatActivity() {
         if (mCamera == null) {
             throw RuntimeException("Unable to open camera")
         }
+        mCameraGLSurfaceView?.setCamera(mCamera)
         val parms: Camera.Parameters = mCamera!!.parameters
         CameraUtils.choosePreviewSize(parms, desiredWidth, desiredHeight)
 
@@ -100,6 +108,18 @@ class MainActivity : AppCompatActivity() {
         } else {
             " @[" + fpsRange[0] / 1000.0 +
                 " - " + fpsRange[1] / 1000.0 + "] fps"
+        }
+
+        mCameraPreviewWidth = mCameraPreviewSize.width
+        mCameraPreviewHeight = mCameraPreviewSize.height
+
+        val display = (getSystemService(WINDOW_SERVICE) as WindowManager).defaultDisplay
+
+        if (display.rotation == Surface.ROTATION_0) {
+            mCamera!!.setDisplayOrientation(90)
+        } else if (display.rotation == Surface.ROTATION_270) {
+            mCamera!!.setDisplayOrientation(180)
+        } else {
         }
     }
 }
