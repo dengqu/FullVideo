@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         btn_draw_triangle?.setOnClickListener(this)
+        btn_camera_preview?.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -20,6 +21,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             when (it) {
                 R.id.btn_draw_triangle -> {
                     startActivity(Intent(this, DrawTriangleActivity::class.java))
+                }
+                R.id.btn_camera_preview -> {
+                    startActivity(Intent(this, CameraPreviewActivity::class.java))
                 }
             }
         }
